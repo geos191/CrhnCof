@@ -1,5 +1,8 @@
+//Proteger el codigo con función autoejectuable.
 
-//Objeto con las Propiedades del efecto Lightbox
+(function(){
+
+	//Objeto con las Propiedades del efecto Lightbox
 let propLightbox = {
 	imgContainer: document.getElementsByClassName('lightbox'),
 	imagen: null,
@@ -73,3 +76,8 @@ metLightbox.inicio();
 
 //window.getComputedStyle(elemente, pseudoelemento); sirve para obtener todos los estilos.
 //slice(5, -2); método para cortar tantos elementos al principio y tantos elementos al final de un String(en esta oportunidad se usa para cortar la cadena de texto).
+
+
+}())
+
+
