@@ -1,6 +1,8 @@
+//proteger codigo con función autoejecutable
 
+(function(){
 
-//Propiedades objeto Scroll
+	//Propiedades objeto Scroll
 
 let propScroll = {
 
@@ -90,3 +92,6 @@ let metScroll = {
 metScroll.inicio();
 
 //window.scrollTo(x, y);
+	
+}())
+
